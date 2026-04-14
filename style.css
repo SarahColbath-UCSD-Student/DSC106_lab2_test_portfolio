@@ -81,6 +81,26 @@ div {
       height: 80px; /* ensuring that titles stay aligned when the word wrapping is strange */
     }
   }
+
+  &.work-history {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1em;
+    background-color: oklch(95% 0.01 205);
+
+    article.header {
+      font-weight: bold;
+      background-color: oklch(80% 0.01 205);
+    }
+
+    article {
+      display: grid;
+      grid-template-columns: subgrid;
+      grid-column: span 5;
+      padding-left: 0.5em;
+      padding-right: 0.5em;
+    }
+  }
 }
 
 
