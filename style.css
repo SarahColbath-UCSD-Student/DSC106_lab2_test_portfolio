@@ -13,16 +13,16 @@ body {
   padding: 0px 10px;
 }
 
-ul, li {
-  display: contents;
-}
-
 nav {
   display: flex;
   margin-bottom: 10px;
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: oklch(80% 3% 200);
+
+  ul, li {
+    display: contents;
+  }
 }
 
 a {
