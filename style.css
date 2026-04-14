@@ -10,8 +10,26 @@ body {
 
 nav {
   display: flex;
+  margin-bottom: 10px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: oklch(80% 3% 200);
 }
 
-a {
-  flex: 1
+ul {
+  display: contents;
 }
+
+li {
+  display: contents;
+}
+
+a.current {
+  flex: 1;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
